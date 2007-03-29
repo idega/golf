@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+
+  <properties>
+    <author email="sigtryggur@idega.is">Sigtryggur Simonarson</author>
+    <title>Golf</title>
+  </properties>
+
+  <body>
+    <section name="IdegaWeb Golf">
+      <p>
+       Þetta er verkefnavefurinn fyrir Golf vefkerfið<br/>
+      </p>
+    </section>
+  </body>
+</document>

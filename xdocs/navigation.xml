@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Golf"
+  href="http://www.golf.is/">
+
+  <title>IdegaWeb Golf</title>
+  <body>
+    <menu name="Home">
+      <item name="IdegaWeb Golf"  href="/index.html" />
+    </menu>
+  </body>
+</project>

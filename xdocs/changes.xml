@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<document>
+  <properties>
+    <title>Golf changes</title>
+    <author email="sigtryggur@idega.is">Sigtryggur Simonarson</author>
+  </properties>
+  <body>
+    
+  	<release version="3.1.0" date="2007-03-29">
+		<action dev="sigtryggur" type="update">
+			First version of the golf webapplication.
+		</action>     
+	</release>
+
+  </body>
+</document>
