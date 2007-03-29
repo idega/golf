@@ -1,0 +1,45 @@
+import com.idega.idegaweb.*;
+import com.idega.business.*;
+import is.idega.idegaweb.golf.business.plugin.*;
+import java.util.*;
+public class IWGolfWS {
+
+        public String registerGolferToClubAndGolfDotIs(String ssn, String clubNumber, String clubMembershipType){
+                try {
+                        GolfUserPluginBusiness biz = (GolfUserPluginBusiness) 
+IBOLookup.getServiceInstance(IWMainApplication.getDefaultIWApplicationContext(),GolfUserPluginBusiness.class);
+                        return biz.registerGolferToClubAndGolfDotIs(ssn,clubNumber,clubMembershipType);
+                }
+                catch (Exception e) {
+                        e.printStackTrace();
+                        return "Service failed to complete the member register, contact eiki@idega.is. The error message was :"+e.getMessage();
+                }
+        }
+
+        public String disableGolferInClub(String ssn, String clubNumber){
+                try {
+                        GolfUserPluginBusiness biz = (GolfUserPluginBusiness) 
+IBOLookup.getServiceInstance(IWMainApplication.getDefaultIWApplicationContext(),GolfUserPluginBusiness.class);
+                        return biz.disableGolferInClub(ssn,clubNumber);
+                }
+                catch (Exception e) {
+                        e.printStackTrace();
+                        return "Service failed to remove the member, contact eiki@idega.is. The error message was :"+e.getMessage();
+                }
+        }
+
+        public Map getGolferInfo(String ssn){
+                try {
+                        GolfUserPluginBusiness biz = (GolfUserPluginBusiness) 
+IBOLookup.getServiceInstance(IWMainApplication.getDefaultIWApplicationContext(),GolfUserPluginBusiness.class);
+                        return biz.getGolferInfo(ssn);
+                }
+                catch (Exception e) {
+                        e.printStackTrace();
+                        Map error = new HashMap();
+                        error.put("error","Service failed to get info about the member, contact eiki@idega.is. The error message was :"+e.getMessage());
+                        return error;
+                }
+        }
+
+}
