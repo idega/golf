@@ -35,7 +35,6 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.help.bundle,com.idega.block.help"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.news.bundle,com.idega.block.news"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.poll.bundle,com.idega.block.poll"/>
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.reports.bundle,com.idega.block.reports"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.venue.bundle,com.idega.block.venue"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.modernus.bundle,is.idega.block.modernus"/>
 	</provider>
