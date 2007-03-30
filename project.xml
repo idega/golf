@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <pomVersion>3</pomVersion>
+  <extend>${idegaweb.application.eplatform.project.dir}/project.xml</extend>
+  <name>golf</name>
+  <groupId>iw-applications</groupId>
+  <artifactId>golf</artifactId>
+  <currentVersion>3.1.0</currentVersion>
+  <inceptionYear>2002</inceptionYear>
+  <shortDescription>IdegaWeb Golf webapplication</shortDescription>
+  <versions>
+  </versions>
+  <dependencies>
+    
+    <!-- IdegaWeb Golf specific modules -->
+     <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.idegaweb.member</artifactId>
+      <version>1.0.5</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+ 
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.idegaweb.golf</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.idegaweb.golf.block.image</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.idegaweb.golf.block.login</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.cal</artifactId>
+      <version>3.1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.jtds.database</artifactId>
+      <version>1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+      <properties/>
+    </dependency>
+    
+    <!-- Other Modules -->
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.calendar</artifactId>
+      <version>3.1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.datareport</artifactId>
+      <version>3.1.1</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.dataquery</artifactId>
+      <version>3.1.1</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+ 
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.category</artifactId>
+      <version>3.1.1</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.text</artifactId>
+      <version>3.1.1</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.news</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.help</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.venue</artifactId>
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.block.modernus</artifactId>
+      <version>3.1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.banner</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.documents</artifactId>
+      <version>3.1.1</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.forum</artifactId>
+      <version>3.1.0</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.poll</artifactId>
+      <version>3.1.2</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+  </dependencies>
+  
+</project>
