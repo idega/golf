@@ -2,6 +2,7 @@
 <psf version="2.0">
 	<provider id="org.eclipse.team.cvs.core.cvsnature">
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,applications/eplatform,eplatform,BRANCH_PLATFORM_3_1"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,applications/golf,golf"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.core.bundle,com.idega.core,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.user.bundle,com.idega.user,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.content.bundle,com.idega.content,BRANCH_PLATFORM_3_1"/>
