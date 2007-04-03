@@ -12,7 +12,6 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.web2.0.bundle,com.idega.block.web2.0,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.webface.bundle,com.idega.webface,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.faces.bundle,com.idega.faces,BRANCH_PLATFORM_3_1"/>		
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.jtds.database.bundle,com.jtds.database"/>
 	
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.bundle,is.idega.idegaweb.golf"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.block.image.bundle,is.idega.idegaweb.golf.block.image"/>
@@ -34,6 +33,7 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.documents.bundle,com.idega.block.documents"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.forum.bundle,com.idega.block.forum"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.help.bundle,com.idega.block.help"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.ldap.bundle,com.idega.block.ldap"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.news.bundle,com.idega.block.news"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.poll.bundle,com.idega.block.poll"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.venue.bundle,com.idega.block.venue"/>
