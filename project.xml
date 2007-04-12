@@ -74,7 +74,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.datareport</artifactId>
-      <version>3.1.1</version>
+      <version>3.1.2</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
