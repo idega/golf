@@ -7,6 +7,11 @@
   </properties>
   <body>
     
+	<release version="3.1.2" date="2007-04-24">
+		<action dev="tryggvil" type="update">
+			Adding clustering support
+		</action>     
+	</release>
   	<release version="3.1.1" date="2007-04-11">
 		<action dev="sigtryggur" type="update">
 			[com.idega.block.datareport 3.1.2] Fixed how report name is displayed when using setter for the block in the builder
