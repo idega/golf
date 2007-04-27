@@ -12,6 +12,7 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.web2.0.bundle,com.idega.block.web2.0,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.webface.bundle,com.idega.webface,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.faces.bundle,com.idega.faces,BRANCH_PLATFORM_3_1"/>		
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.rss.bundle,com.idega.block.rss,BRANCH_PLATFORM_3_1"/>		
 	
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.bundle,is.idega.idegaweb.golf"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.block.image.bundle,is.idega.idegaweb.golf.block.image"/>
