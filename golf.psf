@@ -18,7 +18,7 @@
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.golf.block.login.bundle,is.idega.idegaweb.golf.block.login"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.bundle,is.idega.idegaweb.member"/>
 
-		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal"/>
+		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.calendar.bundle,com.idega.block.calendar,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.category.bundle,com.idega.block.category,BRANCH_PLATFORM_3_1"/>
 		<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.entity.bundle,com.idega.block.entity,BRANCH_PLATFORM_3_1"/>
