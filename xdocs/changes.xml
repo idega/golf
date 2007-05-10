@@ -6,6 +6,15 @@
     <author email="sigtryggur@idega.is">Sigtryggur Simonarson</author>
   </properties>
   <body>
+
+    <release version="3.1.5" date="2007-05-10">
+		<action dev="gimmi" type="update">
+			code cleanup and update
+		</action>     
+		<action dev="gimmi" type="fix">
+			GR handicap fix
+		</action>     
+	</release>
     
     <release version="3.1.4" date="2007-05-07">
 		<action dev="thomas" type="update">

@@ -49,21 +49,21 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf.block.image</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf.block.login</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
