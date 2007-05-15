@@ -7,6 +7,13 @@
   </properties>
   <body>
 
+    <release version="3.1.6" date="2007-05-15">
+		<action dev="tryggvil" type="update">
+			Releasing golf application with tested cluster support.<br/>
+			com.idega.cluster version 3.1.0 and net.jxta version 1.0
+		</action>   
+	</release>
+
     <release version="3.1.5" date="2007-05-10">
 		<action dev="gimmi" type="update">
 			code cleanup and update
