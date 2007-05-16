@@ -7,6 +7,12 @@
   </properties>
   <body>
 
+    <release version="3.1.7" date="2007-05-16">
+		<action dev="eiki" type="update">
+			Updated golf bundle to 3.1.2 to add GolfRegister servlet filter
+		</action>   
+	</release>
+	
     <release version="3.1.6" date="2007-05-15">
 		<action dev="tryggvil" type="update">
 			Releasing golf application with tested cluster support.<br/>
