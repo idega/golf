@@ -177,13 +177,6 @@
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
-      <artifactId>com.idega.block.venue</artifactId>
-      <version>SNAPSHOT</version>
-      <type>iwbar</type>
-      <url>http://www.idega.com</url>
-    </dependency>
-    <dependency>
-      <groupId>bundles</groupId>
       <artifactId>is.idega.block.modernus</artifactId>
       <version>3.1.2</version>
       <type>iwbar</type>
