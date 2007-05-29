@@ -7,6 +7,12 @@
   </properties>
   <body>
 
+    <release version="3.1.12" date="2007-05-29">
+		<action dev="sigtryggur" type="update">
+			Update to use version 3.1.2 of Golf Login block.
+		</action>   
+	</release>
+   
    <release version="3.1.11" date="2007-05-25">
 		<action dev="gimmi" type="update">
 			Update to use version 3.1.2 of News block.
