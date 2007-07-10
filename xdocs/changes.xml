@@ -1,94 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <document>
-  <properties>
-    <title>Golf changes</title>
-    <author email="sigtryggur@idega.is">Sigtryggur Simonarson</author>
-  </properties>
-  <body>
-    <release version="3.1.13" date="2007-06-01">
-		<action dev="palli" type="update">
-			Update to use version 3.1.3 of Golf block (which has POI version of two reports).
-		</action>   
-	</release>
+	<properties>
+		<title>Golf changes</title>
+		<author email="sigtryggur@idega.is">
+			Sigtryggur Simonarson
+		</author>
+	</properties>
+	<body>
 
-    <release version="3.1.12" date="2007-05-29">
-		<action dev="sigtryggur" type="update">
-			Update to use version 3.1.2 of Golf Login block.
-		</action>   
-	</release>
-   
-   <release version="3.1.11" date="2007-05-25">
-		<action dev="gimmi" type="update">
-			Update to use version 3.1.2 of News block.
-			Update to use version 3.1.3 of Category block.
-		</action>   
-	</release>
+		<release version="3.1.14" date="2007-07-09">
+			<action dev="gimmi" type="update">
+				Updated to version 3.1.4 of the Golf block... with the following changes
+				Scorecard saving in tournaments now works properly Field
+				startingtimes now saved correctly. Tournament Admin link
+				now only show on tournaments 'owned' by the admin logged
+				in.
+			</action>
+		</release>
 
-   	<release version="3.1.10" date="2007-05-23">
-		<action dev="sigtryggur" type="update">
-			Update to use version 3.1.4 of com.idega.block.ldap bundle for more printout when create userlogin fails
-		</action>   
-	</release>
+		<release version="3.1.13" date="2007-06-01">
+			<action dev="palli" type="update">
+				Update to use version 3.1.3 of Golf block (which has POI
+				version of two reports).
+			</action>
+		</release>
 
-   <release version="3.1.9" date="2007-05-23">
-		<action dev="gimmi" type="update">
-			Update to use version 3.1.2 of Text block.
-		</action>   
-	</release>
-    <release version="3.1.8" date="2007-05-20">
-		<action dev="tryggvil" type="update">
-			Update to use version 3.1.74 of eplatform that fixes Slide authentication issues.
-		</action>   
-	</release>
+		<release version="3.1.12" date="2007-05-29">
+			<action dev="sigtryggur" type="update">
+				Update to use version 3.1.2 of Golf Login block.
+			</action>
+		</release>
 
-    <release version="3.1.7" date="2007-05-16">
-		<action dev="eiki" type="update">
-			Updated golf bundle to 3.1.2 to add GolfRegister servlet filter
-		</action>   
-	</release>
-	
-    <release version="3.1.6" date="2007-05-15">
-		<action dev="tryggvil" type="update">
-			Releasing golf application with tested cluster support.<br/>
-			com.idega.cluster version 3.1.0 and net.jxta version 1.0
-		</action>   
-	</release>
+		<release version="3.1.11" date="2007-05-25">
+			<action dev="gimmi" type="update">
+				Update to use version 3.1.2 of News block. Update to use
+				version 3.1.3 of Category block.
+			</action>
+		</release>
 
-    <release version="3.1.5" date="2007-05-10">
-		<action dev="gimmi" type="update">
-			code cleanup and update
-		</action>     
-		<action dev="gimmi" type="fix">
-			GR handicap fix
-		</action>     
-	</release>
-    
-    <release version="3.1.4" date="2007-05-07">
-		<action dev="thomas" type="update">
-			Clustering update - using eplatform 3.1.68
-		</action>     
-	</release>
-    <release version="3.1.3" date="2007-05-02">
-		<action dev="thomas" type="update">
-			using eplatform 3.1.67
-		</action>     
-	</release>
-	<release version="3.1.2" date="2007-04-24">
-		<action dev="tryggvil" type="update">
-			Adding clustering support
-		</action>     
-	</release>
-  	<release version="3.1.1" date="2007-04-11">
-		<action dev="sigtryggur" type="update">
-			[com.idega.block.datareport 3.1.2] Fixed how report name is displayed when using setter for the block in the builder
-		</action>     
-	</release>
-  	<release version="3.1.0" date="2007-03-29">
-		<action dev="sigtryggur" type="update">
-			First version of the golf webapplication.
-		</action>     
-	</release>
+		<release version="3.1.10" date="2007-05-23">
+			<action dev="sigtryggur" type="update">
+				Update to use version 3.1.4 of com.idega.block.ldap
+				bundle for more printout when create userlogin fails
+			</action>
+		</release>
 
-  </body>
+		<release version="3.1.9" date="2007-05-23">
+			<action dev="gimmi" type="update">
+				Update to use version 3.1.2 of Text block.
+			</action>
+		</release>
+		<release version="3.1.8" date="2007-05-20">
+			<action dev="tryggvil" type="update">
+				Update to use version 3.1.74 of eplatform that fixes
+				Slide authentication issues.
+			</action>
+		</release>
+
+		<release version="3.1.7" date="2007-05-16">
+			<action dev="eiki" type="update">
+				Updated golf bundle to 3.1.2 to add GolfRegister servlet
+				filter
+			</action>
+		</release>
+
+		<release version="3.1.6" date="2007-05-15">
+			<action dev="tryggvil" type="update">
+				Releasing golf application with tested cluster support.
+				<br />
+				com.idega.cluster version 3.1.0 and net.jxta version 1.0
+			</action>
+		</release>
+
+		<release version="3.1.5" date="2007-05-10">
+			<action dev="gimmi" type="update">
+				code cleanup and update
+			</action>
+			<action dev="gimmi" type="fix">GR handicap fix</action>
+		</release>
+
+		<release version="3.1.4" date="2007-05-07">
+			<action dev="thomas" type="update">
+				Clustering update - using eplatform 3.1.68
+			</action>
+		</release>
+		<release version="3.1.3" date="2007-05-02">
+			<action dev="thomas" type="update">
+				using eplatform 3.1.67
+			</action>
+		</release>
+		<release version="3.1.2" date="2007-04-24">
+			<action dev="tryggvil" type="update">
+				Adding clustering support
+			</action>
+		</release>
+		<release version="3.1.1" date="2007-04-11">
+			<action dev="sigtryggur" type="update">
+				[com.idega.block.datareport 3.1.2] Fixed how report name
+				is displayed when using setter for the block in the
+				builder
+			</action>
+		</release>
+		<release version="3.1.0" date="2007-03-29">
+			<action dev="sigtryggur" type="update">
+				First version of the golf webapplication.
+			</action>
+		</release>
+
+	</body>
 </document>
