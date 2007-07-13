@@ -1,0 +1,9 @@
+<pxml>
+  <map>
+    <key>
+      <name>use_crypto_properties</name>
+      <type>java.lang.String</type>
+      <value>true</value>
+    </key>
+  </map>
+</pxml>
