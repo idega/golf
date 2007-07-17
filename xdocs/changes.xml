@@ -9,6 +9,12 @@
 	</properties>
 	<body>
 
+		<release version="3.1.16" date="2007-07-17">
+			<action dev="gimmi" type="update">
+				Club listener now check for /gr, /gkg etc uri, and redirects to the club page
+				Added a few style classes to the edit startingtime list and printing startingtimes
+			</action>
+		</release>
 		<release version="3.1.15" date="2007-07-13">
 			<action dev="gimmi" type="update">
 				Scorecard saving in tournaments now fixed incorrectly saved scorecard (I blame laddi)
