@@ -6,7 +6,7 @@
   <name>golf</name>
   <groupId>iw-applications</groupId>
   <artifactId>golf</artifactId>
-  <currentVersion>3.1.16</currentVersion>
+  <currentVersion>3.1.17</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Golf webapplication</shortDescription>
   <versions>
@@ -109,7 +109,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf</artifactId>
-      <version>3.1.6</version>
+      <version>3.1.7</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
