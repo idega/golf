@@ -9,6 +9,12 @@
 	</properties>
 	<body>
 
+		<release version="3.1.17" date="2007-07-23">
+			<action dev="gimmi" type="update">
+				Reports for the guys at SYN
+			</action>
+		</release>
+
 		<release version="3.1.16" date="2007-07-17">
 			<action dev="gimmi" type="update">
 				Club listener now check for /gr, /gkg etc uri, and redirects to the club page
