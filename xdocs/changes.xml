@@ -8,6 +8,12 @@
 		</author>
 	</properties>
 	<body>
+		
+		<release version="3.1.18" date="2007-09-12">
+			<action dev="laddi" type="update">
+				Added new block for setting club information
+			</action>
+		</release>
 
 		<release version="3.1.17" date="2007-07-23">
 			<action dev="gimmi" type="update">
