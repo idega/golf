@@ -9,6 +9,12 @@
 	</properties>
 	<body>
 		
+		<release version="3.1.19" date="2008-03-27">
+			<action dev="laddi" type="update">
+				Added CSA correction calculation.
+			</action>
+		</release>
+
 		<release version="3.1.18" date="2007-09-12">
 			<action dev="laddi" type="update">
 				Added new block for setting club information
