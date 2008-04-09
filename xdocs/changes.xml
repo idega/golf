@@ -9,6 +9,13 @@
 	</properties>
 	<body>
 		
+				
+		<release version="3.1.21" date="2008-04-08">
+			<action dev="gimmi" type="update">
+				Creditcard payment in tournaments
+			</action>
+		</release>
+		
 		<release version="3.1.20" date="2008-03-27">
 			<action dev="gimmi" type="update">
 				Handicap report + login update (union required)
