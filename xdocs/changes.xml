@@ -9,6 +9,11 @@
 	</properties>
 	<body>
 		
+		<release version="3.1.22" date="2008-04-12">
+			<action dev="laddi" type="update">
+				Updates to CSA implementation.
+			</action>
+		</release>
 				
 		<release version="3.1.21" date="2008-04-08">
 			<action dev="gimmi" type="update">
