@@ -8,6 +8,11 @@
 		</author>
 	</properties>
 	<body>
+		<release version="3.1.24" date="2008-04-16">
+			<action dev="laddi" type="update">
+				Localization
+			</action>
+		</release>
 		
 		<release version="3.1.23" date="2008-04-16">
 			<action dev="gimmi" type="update">
