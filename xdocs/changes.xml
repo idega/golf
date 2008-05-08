@@ -9,10 +9,15 @@
 	</properties>
 	<body>
 	
+		<release version="3.1.28" date="2008-05-07">
+			<action dev="laddi" type="update">
+				Report
+			</action>
+		</release>
 		<release version="3.1.27" date="2008-04-29">
 			<action dev="gimmi" type="update">
 				Double signer now get a marking
-				Union are now treeable, making it possible to connect unions (GR & GL)
+				Union are now treeable, making it possible to connect unions (GR and GL)
 			</action>
 		</release>
 		<release version="3.1.25" date="2008-04-21">
