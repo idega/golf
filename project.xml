@@ -6,7 +6,7 @@
   <name>golf</name>
   <groupId>iw-applications</groupId>
   <artifactId>golf</artifactId>
-  <currentVersion>3.1.28</currentVersion>
+  <currentVersion>3.1.27</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Golf webapplication</shortDescription>
   <versions>
