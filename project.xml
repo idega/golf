@@ -159,6 +159,7 @@
       <id>3.1.29</id>
       <name>3.1.28</name>
       <tag>EGOLF_3_1_29</tag>
+    </version>
   </versions>
   <dependencies>
     <!-- IdegaWeb Golf specific modules -->
