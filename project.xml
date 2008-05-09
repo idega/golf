@@ -6,7 +6,7 @@
   <name>golf</name>
   <groupId>iw-applications</groupId>
   <artifactId>golf</artifactId>
-  <currentVersion>3.1.28</currentVersion>
+  <currentVersion>3.1.29</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Golf webapplication</shortDescription>
   <versions>
@@ -155,6 +155,10 @@
       <name>3.1.28</name>
       <tag>EGOLF_3_1_28</tag>
     </version>
+    <version>
+      <id>3.1.29</id>
+      <name>3.1.28</name>
+      <tag>EGOLF_3_1_29</tag>
   </versions>
   <dependencies>
     <!-- IdegaWeb Golf specific modules -->
@@ -169,7 +173,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.idegaweb.golf</artifactId>
-      <version>3.1.18</version>
+      <version>3.1.19</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
