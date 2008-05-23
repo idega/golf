@@ -8,6 +8,11 @@
 		</author>
 	</properties>
 	<body>
+		<release version="3.1.33" date="2008-05-23">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.golf to 3.1.23.
+			</action>
+		</release>
 		<release version="3.1.32" date="2008-05-21">
 			<action dev="laddi" type="update">
 				Updated is.idega.idegaweb.golf to 3.1.22.
