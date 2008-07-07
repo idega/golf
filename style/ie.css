@@ -96,11 +96,11 @@ margin-top: -80px;
 
 /* IE PNG as BGs */
 span.unionLogo{
-behavior: url(/content/files/public/js/iepngfix.htc);
+behavior: url(/js/iepngfix.htc);
 }
 
 #playgolf .weather{
-behavior: url(/content/files/public/js/iepngfix.htc);
+behavior: url(/js/iepngfix.htc);
 }
 
 /* IE PNG as BGs ends */
@@ -157,16 +157,16 @@ margin: 25px 0 0 10px;
 *html #associates .ieAs span{
 display: block;
 height: 100%;
-behavior: url(/content/files/public/js/iepngfix.htc);
+behavior: url(/js/iepngfix.htc);
 
 }
 
 *html #associates .ieAs .zo_on{
-background: url(/content/files/public/style/images/banners/zo-on_small.png) no-repeat;
+background: url(/style/images/banners/zo-on_small.png) no-repeat;
 }
 
 *html #associates .ieAs .ice_air{
-background: url(/content/files/public/style/images/banners/icelandair_small.png) no-repeat;
+background: url(/style/images/banners/icelandair_small.png) no-repeat;
 }
 
 *html #associates #myGallery{

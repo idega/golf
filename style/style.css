@@ -55,13 +55,13 @@ div.marginHandler {
 div#top {
 	height: 150px;
 	border-bottom: 1px #fff solid;
-	background: url(/content/files/public/style/images/backgrounds/top-tiler.gif) repeat-x #206201;
+	background: url(/style/images/backgrounds/top-tiler.gif) repeat-x #206201;
 }
 
 div#top div.marginHandler {
 	height: 150px;
 	padding: 0 8px;
-	background: url(/content/files/public/style/images/backgrounds/top-background.gif) no-repeat;
+	background: url(/style/images/backgrounds/top-background.gif) no-repeat;
 }
 
 div#top a#logo {
@@ -100,17 +100,17 @@ a#aboutUnion .unionLogo{
 	width: 22px;
 	height: 27px;
 	margin-right: 5px;
-	background: url(/content/files/public/style/images/icons/gsi.png) left 2px no-repeat;
+	background: url(/style/images/icons/gsi.png) left 2px no-repeat;
 	float: left;
 }
 
 a#icelandic {
-	background: url(/content/files/public/style/images/icons/icelandic.gif) right no-repeat;
+	background: url(/style/images/icons/icelandic.gif) right no-repeat;
 	padding-right: 25px;
 }
 
 a#english {
-	background: url(/content/files/public/style/images/icons/english.gif) right no-repeat;
+	background: url(/style/images/icons/english.gif) right no-repeat;
 	padding-right: 25px;
 }
 
@@ -135,7 +135,7 @@ ul#navigation li a {
 	color: #fff;
 	text-shadow: #2a3f13 2px 2px 1px;
 	line-height: 26px;
-	background: url(/content/files/public/style/images/backgrounds/menu-divider.gif) left no-repeat;
+	background: url(/style/images/backgrounds/menu-divider.gif) left no-repeat;
 	padding: 0 16px;
 }
 
@@ -159,7 +159,7 @@ div#login {
 	top: 107px;
 	width: 399px;
 	height: 32px;
-	background: url(/content/files/public/style/images/backgrounds/login-background-small.gif) no-repeat;
+	background: url(/style/images/backgrounds/login-background-small.gif) no-repeat;
 }
 
 div#login a#lostPassword {
@@ -171,7 +171,7 @@ div#login a#lostPassword {
 
 div#login form {
 	margin: 0;
-	background: url(/content/files/public/style/images/icons/login.gif) 7px 8px no-repeat;
+	background: url(/style/images/icons/login.gif) 7px 8px no-repeat;
 	padding-left: 23px;
 	overflow: hidden;
 	height: 32px;
@@ -224,7 +224,7 @@ div#login div.login div.password input {
 }
 
 div#login div.submit a {
-	background: url(/content/files/public/style/images/tabs/login/left.gif) left no-repeat;
+	background: url(/style/images/tabs/login/left.gif) left no-repeat;
 	line-height: 20px;
 	display: block;
 	height: 20px;
@@ -243,7 +243,7 @@ div#login div.submit a:hover {
 }
 
 div#login div.submit a span {
-	background: url(/content/files/public/style/images/tabs/login/right.gif) right no-repeat;
+	background: url(/style/images/tabs/login/right.gif) right no-repeat;
 	display: block;
 	padding-left: 6px;
 	padding-right: 10px;
@@ -255,12 +255,12 @@ div#registration {
 	top: 107px;
 	width: 224px;
 	height: 32px;
-	background: url(/content/files/public/style/images/backgrounds/registration-background.gif) no-repeat;
+	background: url(/style/images/backgrounds/registration-background.gif) no-repeat;
 }
 
 div#registration form {
 	padding-left: 30px;
-	background: url(/content/files/public/style/images/icons/registration.gif) 7px 8px no-repeat;
+	background: url(/style/images/icons/registration.gif) 7px 8px no-repeat;
 	overflow: hidden;
 }
 
@@ -285,7 +285,7 @@ div#registration input {
 }
 
 div#registration a {
-	background: url(/content/files/public/style/images/tabs/login/left.gif) left no-repeat;
+	background: url(/style/images/tabs/login/left.gif) left no-repeat;
 	line-height: 20px;
 	display: block;
 	height: 20px;
@@ -304,7 +304,7 @@ div#registration a:hover {
 }
 
 div#registration a span {
-	background: url(/content/files/public/style/images/tabs/login/right.gif) right no-repeat;
+	background: url(/style/images/tabs/login/right.gif) right no-repeat;
 	display: block;
 	padding-left: 6px;
 	padding-right: 10px;
@@ -312,7 +312,7 @@ div#registration a span {
 
 /* Middle */
 div#middle {
-	background: url(/content/files/public/style/images/backgrounds/middle-tiler.gif) top left repeat-x #f8f7f2;
+	background: url(/style/images/backgrounds/middle-tiler.gif) top left repeat-x #f8f7f2;
 	height: 400px;
 	padding-bottom: 78px;
 	overflow: hidden;
@@ -342,7 +342,7 @@ div#twoColumns div.left {
 }
 
 div#shadedLeft {
-	background: url(/content/files/public/style/images/backgrounds/left-background.gif) no-repeat;
+	background: url(/style/images/backgrounds/left-background.gif) no-repeat;
 	min-height: 900px;
 	padding: 19px 6px 0 8px;
 	margin-left: -8px;
@@ -352,7 +352,7 @@ div#shadedLeft {
 div#threeColumns div.middle, div#twoSmallColumns div.smallRight {
 	float: left;
 	width: 338px;
-	background: url(/content/files/public/style/images/backgrounds/middle-column-background.gif) no-repeat;
+	background: url(/style/images/backgrounds/middle-column-background.gif) no-repeat;
 	min-height: 900px;
 	padding: 19px 14px;
 	padding-bottom: 0;
@@ -384,7 +384,7 @@ div.box div.innerBox.middleBox, div.box div.innerBox.bottomBox {
 }
 
 div.box div.innerBox.topBox, div.box div.innerBox.middleBox {
-	background: url(/content/files/public/style/images/backgrounds/dotted-chissle.gif) center bottom no-repeat;
+	background: url(/style/images/backgrounds/dotted-chissle.gif) center bottom no-repeat;
 }
 
 div.box div.innerBox h2 {
@@ -429,7 +429,7 @@ div.middle div.box h1 {
 	font-size: 11px;
 	color: #fff;
 	font-weight: bold;
-	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	background: url(/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
 	border: 0;
 }
 
@@ -447,7 +447,7 @@ div.middle div.box h2 {
 
 div#golferManual {
 	height: 73px;
-	background: url(/content/files/public/style/images/backgrounds/manual-background.gif) no-repeat;
+	background: url(/style/images/backgrounds/manual-background.gif) no-repeat;
 }
 
 div#golferManual img {
@@ -485,7 +485,7 @@ div#golferManual select {
 }
 
 div#associates {
-	background: url(/content/files/public/style/images/backgrounds/associates-background.gif) repeat-x #e6e6e6;
+	background: url(/style/images/backgrounds/associates-background.gif) repeat-x #e6e6e6;
 	height: 124px;
 }
 
@@ -540,7 +540,7 @@ div#poll h1 {
 }
 
 div#poll div.innerBox {
-	background: url(/content/files/public/style/images/backgrounds/poll-background.gif) center center no-repeat;
+	background: url(/style/images/backgrounds/poll-background.gif) center center no-repeat;
 	padding: 10px 12px;
 }
 
@@ -603,7 +603,7 @@ div#poll div.poll .percentageLevel{
 
 div#playgolf {
 	min-height: 258px;
-	background: url(/content/files/public/style/images/backgrounds/playgolf-background.gif) repeat-x #a6c099;
+	background: url(/style/images/backgrounds/playgolf-background.gif) repeat-x #a6c099;
 	border-color: #bbcda0;
 }
 
@@ -623,7 +623,7 @@ div#playgolf img#bookOnline {
 
 div#golferMagazine {
 	height: 89px;
-	background: url(/content/files/public/style/images/backgrounds/magazine-background.gif);
+	background: url(/style/images/backgrounds/magazine-background.gif);
 	position: relative;
 	padding: 12px;
 }
@@ -731,7 +731,7 @@ table.tournamentList td.points, table.tournamentList th.points {
 
 table.golfTable tfoot tr td a, .box .boxfoot a, 
 #newsCollectionLink {
-	background: url(/content/files/public/style/images/icons/orange-arrow.gif) left no-repeat;
+	background: url(/style/images/icons/orange-arrow.gif) left no-repeat;
 	padding-left: 12px;
 	font-size: 10px;
 }
@@ -761,7 +761,7 @@ div#scoreTableMen div.date, div#scoreTableWomen div.date {
 /* Weather */
 div.weather {
 	border: 0;
-	background: url(/content/files/public/style/images/backgrounds/weather-background.png) no-repeat;
+	background: url(/style/images/backgrounds/weather-background.png) no-repeat;
 	width: 236px;
 	height: 59px;
 	position: absolute;
@@ -830,7 +830,7 @@ ul.mainNavigation {
 	padding: 0;
 	list-style: none;
 	height: 21px;
-	background: url(/content/files/public/style/images/backgrounds/mainNavigation-tiler.gif) repeat-x;
+	background: url(/style/images/backgrounds/mainNavigation-tiler.gif) repeat-x;
 }
 
 div#twoSmallColumns ul.mainNavigation {
@@ -863,7 +863,7 @@ ul.mainNavigation li a {
 ul.mainNavigation li.selected {
 	line-height: 21px;
 	height: 21px;
-	background: url(/content/files/public/style/images/backgrounds/mainNavigation-item-tiler.gif) repeat-x;
+	background: url(/style/images/backgrounds/mainNavigation-item-tiler.gif) repeat-x;
 	border: 0;
 	padding: 0 11px;
 }
@@ -1058,7 +1058,7 @@ div#clubNews h1 {
 	font-size: 11px;
 	color: #fff;
 	font-weight: bold;
-	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	background: url(/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
 	border: 0;
 }
 
@@ -1145,12 +1145,12 @@ div#frontNews div.article_item_2, div#frontNews div.article_item_3 {
 	padding-left: 95px;
 	margin-bottom: 10px;
 	overflow: visible;
-	background: url(/content/files/public/newsimages/default1.jpg) no-repeat;
+	background: url(/newsimages/default1.jpg) no-repeat;
 }
 
 div#frontNews div.article_item_3 {
 	margin-bottom: 18px;
-	background-image: url(/content/files/public/newsimages/default2.jpg);
+	background-image: url(/newsimages/default2.jpg);
 }
 
 div#frontNews div.article_item_2 div.article_teaser, div#frontNews div.article_item_3 div.article_teaser {
@@ -1236,7 +1236,7 @@ text-decoration: underline !important;
 font-size: 14px;
 font-weight: bold;
 padding-left: 20px;
-background: url(/content/files/public/style/images/icons/pencil.png) no-repeat;
+background: url(/style/images/icons/pencil.png) no-repeat;
 }
 
 .teeTimes .teeTimeTable a:hover{
@@ -1355,7 +1355,7 @@ div#clubColumns div.box h1 {
 	border: 0;
 	line-height: 24px;
 	height: 24px;
-	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x;
+	background: url(/style/images/backgrounds/list-heading-background.gif) repeat-x;
 	color: #fff;
 	font-size: 11px;
 	font-weight: bold;
@@ -1428,7 +1428,7 @@ div.usefulInfo .article_creation_date {
 	color: #fff;
 	text-shadow: #2a3f13 2px 2px 1px;
 	line-height: 26px;
-	background: url(/content/files/public/style/images/backgrounds/menu-divider.gif) left no-repeat;
+	background: url(/style/images/backgrounds/menu-divider.gif) left no-repeat;
 	padding: 0 16px;
 	position: absolute;
 	right: 23px;
@@ -1577,7 +1577,7 @@ div#handicapReports h1 {
 	font-size: 11px;
 	color: #fff;
 	font-weight: bold;
-	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	background: url(/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
 	border: 0;
 	padding: 0 8px;
 	border-bottom: 3px #c1c1c1 solid;
