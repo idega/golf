@@ -46,7 +46,7 @@
 var IS_PNG = /\.png$/i; /* <-- NOTE: remove the "\-trans" to process *all* PNGs */
 var supported = /MSIE (5\.5|[6])/.test(navigator.userAgent) && navigator.platform == 'Win32';
 var realSrc, realHeight, realWidth;
-var blankSrc = '/content/files/public/style/js/blank.gif';
+var blankSrc = '/js/blank.gif';
 if (supported) fixImage();
 function propertyChanged() {
   if (supported && event.propertyName == 'src') {
