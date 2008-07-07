@@ -1,0 +1,193 @@
+@import url('/content/files/public/style/style.css');
+
+*html #middle{
+height: auto !important;
+}
+
+*html #middle .right{
+width: 250px !important;
+overflow: hidden;
+margin-left: -28px;
+}
+
+*html #middle .middle .box{
+width: 310px
+}
+
+*html #bigBanner{
+width: 304px;
+}
+
+*html #playgolf{
+height: 250px !important;
+}
+
+*html #playgolf .innerBox.topBox{
+margin-top: -61px;
+}
+
+*html #playgolf .innerBox.bottomBox .weather{
+margin-top: -15px;
+}
+
+*html #golferManual{
+height: 73px !important;
+overflow: hidden;
+}
+
+*html #twoSmallColumns .smallRight{
+padding-right: -10px !important;
+width: 300px !important;
+margin-left: -4px;
+}
+
+*html #twoSmallColumns .smallRight .handicapOverview,
+#twoSmallColumns .smallRight .statisticsLayer{
+width: 310px !important;
+}
+
+*html #tournamentList.golfForm .formSection.navigationLayer .formItem a span{
+padding-right: 15px !important;
+position: absolute;
+}
+
+*html #playgolf #bookOnline{
+height: 60px !important;
+width: 55px !important;
+margin-left: 193px;
+}
+
+*html #playgolf .weather{
+margin-top: -10px !important;
+}
+
+*html #frontNews.content_list .article_item{
+clear: left;
+height: 20px !important;
+}
+
+
+*html #frontNews.content_list .article_creation_date{
+clear: left !important;
+}
+
+*html #tournamentStartingtimeList .navigationLayer .formItem .indentedButton{
+border: 1px solid #000 !important;
+position: relative !important;
+z-index: 999 !important;
+display: block !important;
+width: 50px !important;
+height: 15px !important;
+}
+
+*html #golferMagazine .mag{
+float: right;
+margin-top: -45px;
+}
+
+*html #playgolf .weather div.image{
+float: right;
+}
+
+*html #golferManual .gMan{
+float: right;
+margin-top: -80px;
+}
+
+/* IE PNG as BGs */
+span.unionLogo{
+behavior: url(/content/files/public/js/iepngfix.htc);
+}
+
+#playgolf .weather{
+behavior: url(/content/files/public/js/iepngfix.htc);
+}
+
+/* IE PNG as BGs ends */
+
+*html div.buttonLayer{
+height: 30px;
+}
+
+*html div.buttonLayer a{
+width: 120px;
+}
+
+*html .navigationLayer{
+padding-bottom: 40px !important;
+}
+
+*html .golfMemberInfo{
+padding-bottom: 30px !important;
+}
+
+*html .navigationLayer.teeTimeSearch{
+height: auto !important;
+padding-bottom: 120px !important;
+}
+
+*html  .navigationLayer.teeTimeSearch a{
+width: 120px;
+}
+
+*html .golfMemberInfo a{
+width: 120px;
+}
+
+*html .tournaments .information{
+padding-bottom: 70px;
+}
+
+*html .teeTimeSearch{
+padding-bottom: 170px !important;
+}
+
+*html #associates .ieAs{
+display: block !important;
+height: 94px;
+}
+
+*html #associates .ieAs a{
+width: 110px !important;
+float: left;
+height: 42px;
+margin: 25px 0 0 10px;
+}
+
+*html #associates .ieAs span{
+display: block;
+height: 100%;
+behavior: url(/content/files/public/js/iepngfix.htc);
+
+}
+
+*html #associates .ieAs .zo_on{
+background: url(/content/files/public/style/images/banners/zo-on_small.png) no-repeat;
+}
+
+*html #associates .ieAs .ice_air{
+background: url(/content/files/public/style/images/banners/icelandair_small.png) no-repeat;
+}
+
+*html #associates #myGallery{
+display: none;
+}
+
+*html #container #top #login .submit a{
+right: 0px;
+}
+
+/*Club Templates*/
+
+*html .leftCC{
+margin-left: -475px;
+position: relative;
+}
+
+*html #clubColumnSplit .rightCC{
+position: relative;
+width: 310px !important;
+margin-left: -60px;
+}
+
+/*Club Templates end*/

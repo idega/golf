@@ -1,0 +1,1599 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #1f1f1f;
+	background-color: #f8f7f2;
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+a {
+	font-size: 11px;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #ff6500;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6500;
+	text-decoration: underline;
+	font-size: 11px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+div#container {
+	height: 100%;
+	background-color: #f8f7f2;
+}
+
+html>body div#container {
+	height: auto;
+	min-height: 100%;
+}
+
+div.marginHandler {
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Top */
+div#top {
+	height: 150px;
+	border-bottom: 1px #fff solid;
+	background: url(/content/files/public/style/images/backgrounds/top-tiler.gif) repeat-x #206201;
+}
+
+div#top div.marginHandler {
+	height: 150px;
+	padding: 0 8px;
+	background: url(/content/files/public/style/images/backgrounds/top-background.gif) no-repeat;
+}
+
+div#top a#logo {
+	position: absolute;
+	top: 23px;
+	left: 31px;
+}
+
+div#properties {
+	float: right;
+	margin-top: 11px;
+	margin-right: 22px;
+}
+
+div#links, div#links a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #38511d;
+	line-height: 26px;
+}
+
+div#links a, div#links span {
+	display: block;
+	float: left;
+}
+
+div#links a {
+	text-decoration: underline;
+}
+
+a#aboutUnion {
+	padding-bottom: 2px;
+}
+
+a#aboutUnion .unionLogo{
+	width: 22px;
+	height: 27px;
+	margin-right: 5px;
+	background: url(/content/files/public/style/images/icons/gsi.png) left 2px no-repeat;
+	float: left;
+}
+
+a#icelandic {
+	background: url(/content/files/public/style/images/icons/icelandic.gif) right no-repeat;
+	padding-right: 25px;
+}
+
+a#english {
+	background: url(/content/files/public/style/images/icons/english.gif) right no-repeat;
+	padding-right: 25px;
+}
+
+ul#navigation {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	right: 38px;
+	top: 67px;
+}
+
+ul#navigation li {
+	display: block;
+	float: left;
+}
+
+ul#navigation li a {
+	font-family: "Myriad Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: #2a3f13 2px 2px 1px;
+	line-height: 26px;
+	background: url(/content/files/public/style/images/backgrounds/menu-divider.gif) left no-repeat;
+	padding: 0 16px;
+}
+
+ul#navigation li.firstChild a {
+	background: none;
+	padding-left: 0;
+}
+
+ul#navigation li.lastChild a {
+	padding-right: 0;
+}
+
+ul#navigation li.selected a {
+	color: #2c4116;
+	text-shadow: #fff 1px 1px 1px;
+}
+
+div#login {
+	position: absolute;
+	right: 267px;
+	top: 107px;
+	width: 399px;
+	height: 32px;
+	background: url(/content/files/public/style/images/backgrounds/login-background-small.gif) no-repeat;
+}
+
+div#login a#lostPassword {
+	position: absolute;
+	line-height: 20px;
+	top: 6px;
+	left: 306px;
+}
+
+div#login form {
+	margin: 0;
+	background: url(/content/files/public/style/images/icons/login.gif) 7px 8px no-repeat;
+	padding-left: 23px;
+	overflow: hidden;
+	height: 32px;
+}
+
+div#login form p {
+	padding-left: 12px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 32px;
+}
+
+div#login div.login {
+	max-width: none;
+}
+
+div#login div.login label {
+	display: none;
+}
+
+div#login div.login div.username, div#login div.login div.password {
+	float: left;
+	margin-left: 7px;
+	margin-top: 6px;
+}
+
+div#login div.login div.username {
+	border: 1px #fff solid;
+}
+
+div#login div.login div.password {
+	border: 1px #fff solid;
+	margin-left: 9px;
+}
+
+div#login div.login div.username input, div#login div.login div.password input {
+	height: 13px;
+	font-size: 11px;
+	padding: 2px;
+	border: 1px #ccc solid;
+}
+
+div#login div.login div.username input {
+	width: 137px;
+}
+
+div#login div.login div.password input {
+	width: 108px;
+}
+
+div#login div.submit a {
+	background: url(/content/files/public/style/images/tabs/login/left.gif) left no-repeat;
+	line-height: 20px;
+	display: block;
+	height: 20px;
+	padding-left: 4px;
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	color: #fff;
+	text-shadow: #000 2px 2px 1px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+div#login div.submit a:hover {
+	text-decoration: none;
+}
+
+div#login div.submit a span {
+	background: url(/content/files/public/style/images/tabs/login/right.gif) right no-repeat;
+	display: block;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+div#registration {
+	position: absolute;
+	right: 32px;
+	top: 107px;
+	width: 224px;
+	height: 32px;
+	background: url(/content/files/public/style/images/backgrounds/registration-background.gif) no-repeat;
+}
+
+div#registration form {
+	padding-left: 30px;
+	background: url(/content/files/public/style/images/icons/registration.gif) 7px 8px no-repeat;
+	overflow: hidden;
+}
+
+div#registration label, div#registration div.example {
+	display: none;
+}
+
+div#registration div.input {
+	border: 1px #fff solid;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-top: 6px;
+}
+
+div#registration input {
+	width: 87px;
+	height: 13px;
+	font-size: 11px;
+	padding: 2px;
+	border: 1px #ccc solid;
+}
+
+div#registration a {
+	background: url(/content/files/public/style/images/tabs/login/left.gif) left no-repeat;
+	line-height: 20px;
+	display: block;
+	height: 20px;
+	padding-left: 4px;
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	color: #fff;
+	text-shadow: #000 2px 2px 1px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+div#registration a:hover {
+	text-decoration: none;
+}
+
+div#registration a span {
+	background: url(/content/files/public/style/images/tabs/login/right.gif) right no-repeat;
+	display: block;
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+/* Middle */
+div#middle {
+	background: url(/content/files/public/style/images/backgrounds/middle-tiler.gif) top left repeat-x #f8f7f2;
+	height: 400px;
+	padding-bottom: 78px;
+	overflow: hidden;
+}
+
+html>body div#middle {
+	height: auto;
+	min-height: 322px;
+}
+
+div#threeColumns {
+	overflow: hidden;
+}
+
+div#threeColumns div.left, div#twoSmallColumns div.smallLeft {
+	float: left;
+	width: 400px;
+	min-height: 100px;
+	padding-top: 19px;
+}
+
+div#twoColumns div.left {
+	float: left;
+	width: 738px;
+	min-height: 100px;
+	padding-bottom: 19px;
+}
+
+div#shadedLeft {
+	background: url(/content/files/public/style/images/backgrounds/left-background.gif) no-repeat;
+	min-height: 900px;
+	padding: 19px 6px 0 8px;
+	margin-left: -8px;
+	margin-right: 8px;
+}
+
+div#threeColumns div.middle, div#twoSmallColumns div.smallRight {
+	float: left;
+	width: 338px;
+	background: url(/content/files/public/style/images/backgrounds/middle-column-background.gif) no-repeat;
+	min-height: 900px;
+	padding: 19px 14px;
+	padding-bottom: 0;
+}
+
+html>body div#threeColumns div.middle, html>body div#twoSmallColumns div.smallRight {
+	width: 310px;
+}
+
+div#twoColumns div.right, div#threeColumns div.right {
+	float: right;
+	width: 252px;
+	padding-top: 19px;
+}
+
+/* Box */
+div.box {
+	margin-bottom: 12px;
+	border: 1px #b0b8bd solid;
+	position: relative;
+}
+
+div.box div.innerBox {
+	border-top: 1px #fff solid;
+}
+
+div.box div.innerBox.middleBox, div.box div.innerBox.bottomBox {
+	border: 0;
+}
+
+div.box div.innerBox.topBox, div.box div.innerBox.middleBox {
+	background: url(/content/files/public/style/images/backgrounds/dotted-chissle.gif) center bottom no-repeat;
+}
+
+div.box div.innerBox h2 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #191e26;
+	font-weight: normal;
+	margin-bottom: 8px;
+}
+
+div.box div.innerBox select {
+	width: 188px;
+	height: 16px;
+	position: relative;
+	z-index: 1;
+	font-size: 11px;
+	padding: 0;
+	line-height: 18px;
+	border: 1px #000 solid;
+	margin-bottom: 3px;
+}
+
+div.box h1 {
+	margin: 0;
+	padding: 0;
+	line-height: 27px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #191e26;
+	border-bottom: 1px #b0b8bd solid;
+	padding: 0 11px;
+}
+
+div.middle div.box {
+	border: 0;
+}
+
+div.middle div.box h1 {
+	line-height: 24px;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	border: 0;
+}
+
+div.middle div.box h2 {
+	margin: 0;
+	padding: 0;
+	padding: 0 11px;
+	background-color: #6d9040;
+	line-height: 22px;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	border: 0;
+}
+
+div#golferManual {
+	height: 73px;
+	background: url(/content/files/public/style/images/backgrounds/manual-background.gif) no-repeat;
+}
+
+div#golferManual img {
+	position: absolute;
+	right: 5px;
+	top: -20px;
+	z-index: 0;
+}
+
+div#golferManual h1 {
+	line-height: 20px;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #191e26;
+	text-shadow: #fff 2px 2px 1px;
+	margin: 0;
+	padding: 0;
+	padding-left: 11px;
+	padding-top: 20px;
+	padding-bottom: 3px;
+	border: 0;
+}
+
+div#golferManual select {
+	width: 188px;
+	height: 16px;
+	margin-left: 11px;
+	position: relative;
+	z-index: 1;
+	font-size: 11px;
+	padding: 0;
+	line-height: 18px;
+	border: 1px #000 solid;
+}
+
+div#associates {
+	background: url(/content/files/public/style/images/backgrounds/associates-background.gif) repeat-x #e6e6e6;
+	height: 124px;
+}
+
+#myGallery {
+	width: 250px;
+	height: 95px;
+	border: 0;
+}
+
+#mainBanner {
+	width: 304px;
+	height: 174px;
+}
+
+#newsBanner {
+	padding-bottom: 10px;
+	border-bottom: 1px #d5d4cf solid;
+}
+
+#clubBanner {
+	border: 1px #a5a5a5 solid;
+	padding: 2px;
+	margin-bottom: 12px;
+}
+
+#clubBanner #myGallery {
+	width: 304px;
+	height: 174px;
+}
+
+#newsImage img, #newsBanner img {
+	border: 0;
+}
+
+.jdGallery .slideElement {
+	background-color: #fff;
+}
+
+div#bigBanner {
+	border: 1px #a5a5a5 solid;
+	padding: 2px;
+	margin-bottom: 12px;
+}
+
+div#poll {
+	background-color: #d3e7f0;
+	border-color: #bbd1db;
+}
+
+div#poll h1 {
+	border-color: #bbd1db;
+}
+
+div#poll div.innerBox {
+	background: url(/content/files/public/style/images/backgrounds/poll-background.gif) center center no-repeat;
+	padding: 10px 12px;
+}
+
+div#poll div.poll p {
+	margin: 0; 
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #191e26;
+	margin-bottom: 12px;
+}
+
+div#poll div.poll ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#poll a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3a84cf;
+	font-weight: bold;
+}
+
+div#poll a#olderPolls {
+	text-align: right;
+	display: block;
+	margin-top: 12px;
+}
+
+div#poll div.poll ul li {
+	line-height: 18px;
+}
+
+div#poll div.poll ul.results li {
+	margin-bottom: 6px;
+}
+
+div#poll div.poll ul li a {
+	font-size: 11px;
+}
+
+div#poll div.poll ul li p {
+	font-size: 11px;
+	margin: 0;
+}
+
+div#poll div.poll .percentageBar {
+	width: auto;  
+	border: 1px solid #1f1f1f;
+}
+
+div#poll div.poll .percentageLevel{
+	height: 10px; 
+	border: none; 
+	background: #3a84cf;
+}
+
+
+div#playgolf {
+	min-height: 258px;
+	background: url(/content/files/public/style/images/backgrounds/playgolf-background.gif) repeat-x #a6c099;
+	border-color: #bbcda0;
+}
+
+div#playgolf h1 {
+	border-color: #bbcda0;
+}
+
+div#playgolf div.innerBox {
+	padding: 10px 12px;
+}
+
+div#playgolf img#bookOnline {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+}
+
+div#golferMagazine {
+	height: 89px;
+	background: url(/content/files/public/style/images/backgrounds/magazine-background.gif);
+	position: relative;
+	padding: 12px;
+}
+
+html>body div#golferMagazine {
+	height: 65px;
+}
+
+div#golferMagazine img {
+	position: absolute;
+	right: 5px;
+	top: -16px;
+	z-index: 0;
+}
+
+div#golferMagazine h1 {
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #191e26;
+	text-shadow: #fff 2px 2px 1px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 3px;
+	border: 0;
+}
+
+div#golferMagazine h2 {
+	margin: 0;
+	padding: 0;
+	color: #71757d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+div#golferMagazine select {
+	position: absolute;
+	width: 223px;
+	height: 16px;
+	z-index: 1;
+	font-size: 11px;
+	padding: 0;
+	line-height: 18px;
+	border: 1px #000 solid;
+	left: 12px;
+	top: 59px;
+}
+
+div.middle div.banner {
+	border: 1px #a5a5a5 solid;
+	padding: 2px;
+}
+
+div.right div.banner {
+	border: 0;
+}
+
+/* Tournament */
+table.tournamentList tr td, table.tournamentList tr th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #191e26;
+}
+
+table.tournamentList thead tr th {
+	line-height: 18px;
+	text-align: left;
+	padding: 0 6px;
+}
+
+table#nextTournamentsTable thead tr th {
+	border-top: 2px #c1c1c1 solid;
+}
+
+table.tournamentList tbody tr td {
+	padding: 0 6px;
+	line-height: 18px;
+	border-top: 1px #ececec solid;
+}
+
+table.tournamentList tfoot tr td, div#scoreTableMen table tfoot tr td, div#scoreTableWomen table tfoot tr td, .box .boxfoot {
+	line-height: 18px;
+	background-color: #dddcd7;
+	padding: 0 6px;
+	text-align: right;
+}
+
+table.tournamentList tbody tr.odd {
+	background-color: #f8f7f2;
+}
+
+table.tournamentList tbody tr.even {
+	background-color: #fff;
+}
+
+table#nextTournamentsTable td.date, table#nextTournamentsTable th.date {
+	text-align: right;
+}
+
+table.tournamentList td.points, table.tournamentList th.points {
+	text-align: right;
+}
+
+table.golfTable tfoot tr td a, .box .boxfoot a, 
+#newsCollectionLink {
+	background: url(/content/files/public/style/images/icons/orange-arrow.gif) left no-repeat;
+	padding-left: 12px;
+	font-size: 10px;
+}
+
+#newsCollectionLink {
+	font-weight : bold;
+	float : right;
+	position : relative;
+	top : -27px;
+	right : 4px;
+}
+
+.box .boxfoot a{
+	font-weight: bold;
+}
+
+div#scoreTableMen div.date, div#scoreTableWomen div.date {
+	position: absolute;
+	top: 0;
+	right: 11px;
+	line-height: 24px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+/* Weather */
+div.weather {
+	border: 0;
+	background: url(/content/files/public/style/images/backgrounds/weather-background.png) no-repeat;
+	width: 236px;
+	height: 59px;
+	position: absolute;
+	left: 7px;
+	margin-top: 8px;
+	padding: 8px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #191e26;
+}
+
+html>body div.weather {
+	width: 216px;
+	height: 43px;
+}
+
+div.weather div.weatherStation {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 0;
+	float: none;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+div.weather div.image {
+	position: absolute;
+	position: absolute;
+	top: -16px;
+	right: 10px;
+	left: auto;
+}
+
+div.weather div.windDirectionIcon, div.weather div.clearance, div.weather div.time {
+	display: none;
+}
+
+div.weather div.temperature {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	margin-top: 6px;
+	padding: 0;
+	float: none;
+	font-weight: normal;
+	text-shadow: none;
+}
+
+div.weather div.windspeed, div.weather div.windDirection {
+	position: absolute;
+	left: 70px;
+	top: 38px;
+	font-size: 12px;
+}
+
+div.weather div.windspeed {
+	left: 98px;
+}
+
+div.teeTimes, div.tournaments {
+	padding-right: 14px;
+}
+
+/* Main navigation */
+ul.mainNavigation {
+	margin-top: 19px;
+	margin-bottom: 0;
+	padding: 0;
+	list-style: none;
+	height: 21px;
+	background: url(/content/files/public/style/images/backgrounds/mainNavigation-tiler.gif) repeat-x;
+}
+
+div#twoSmallColumns ul.mainNavigation {
+	margin-top: 0;
+}
+
+ul.mainNavigation li {
+	line-height: 20px;
+	height: 20px;
+	float: left;
+	padding: 0 10px;
+	border-left: 1px #858c97 solid;
+	border-right: 1px #252526 solid;
+}
+
+ul.mainNavigation li.extraAfterLastChild {
+	padding: 0;
+	border-right: 0;
+}
+
+ul.mainNavigation li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: #000 2px 2px 1px;
+}
+
+ul.mainNavigation li.selected {
+	line-height: 21px;
+	height: 21px;
+	background: url(/content/files/public/style/images/backgrounds/mainNavigation-item-tiler.gif) repeat-x;
+	border: 0;
+	padding: 0 11px;
+}
+
+ul.mainNavigation li.selected a {
+	color: #1f1f1f;
+	text-shadow: none;
+}
+
+div#newsImage {
+	background-color: #1a1f27;
+	border-bottom: 1px #17191d solid;
+	padding: 6px;
+}
+
+/* Article */
+.article_item {
+	margin: 0;
+}
+
+.article_author {
+	padding-right: 0;
+	
+}
+
+.article_creation_date {
+	border-left: 0;
+}
+
+.article_headline {
+	margin: 0;
+	width: auto;
+}
+
+.article_teaser {
+	width: auto;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	display: none;
+}
+
+.article_body {
+	width: auto;
+	text-align: left;
+}
+
+.item_details_command a {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 15px;
+	font-size: 11px;
+}
+
+
+
+div#topFrontNews {
+	position : relative;
+	background-color: #1a1f27;
+	border-top: 1px #2b2f39 solid;
+	padding: 6px 11px;
+	margin-bottom: 12px;
+}
+
+div#topFrontNews div.article_item, div#topFrontNews div.article_author, div#topFrontNews div.article_creation_date, div#topFrontNews div.article_body {
+	display: none;
+}
+
+div#topFrontNews div.article_item.article_item_first, div#topFrontNews div.article_teaser {
+	display: block;
+}
+
+div#topFrontNews div.article_headline {
+	font-size: 18px;
+	color: #a0a0a0;
+	text-shadow: #000 2xp 2px 1px;
+	margin-bottom: 4px;
+}
+
+div#topFrontNews div.article_teaser {
+	font-size: 11px;
+	color: #fff;
+	line-height: 15px;
+}
+
+div#topFrontNews div.article_teaser img{
+	position : absolute;
+	top : -231px;
+	left : 6px;
+	width : 388px;
+	height : 223px;
+}
+
+div#topFrontNews div.item_details_command {
+	line-height: 15px;
+}
+
+div#frontNews {
+	padding-top: 8px;
+	border-top: 1px #fff solid;
+	margin-bottom: 12px;
+}
+
+div#frontNews div.article_item_first {
+	display: none;
+}
+
+div#clubNews div.article_item, div#frontNews div.article_item {
+	border-top: 1px #ececec solid;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+div#frontNews div.article_item_even {
+	background-color: #fff;
+}
+
+div#frontNews div.article_item_last {
+	border-bottom: 18px #dddcd7 solid;
+}
+
+
+div#clubNews div.article_creation_date, div#frontNews div.article_creation_date {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #191e26;
+	width: 87px;
+}
+
+div#clubNews div.article_headline, div#frontNews div.article_headline {
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+div#frontNews div.article_body, div#frontNews div.article_author, div#frontNews div.item_details_command {
+	display: none;
+}
+
+div#newsOverview {
+	padding: 15px;
+	border-top: 3px #c1c1c1 solid;
+}
+
+div.articleSeperator {
+	height: 12px;
+	border-bottom: 1px #fff solid;
+	background: url(/idegaweb/bundles/is.idega.idegaweb.golf.bundle/resources/style/images/backgrounds/navigation-background.gif) repeat-x #cccac3;
+}
+
+div.articleText, div.newsText {
+	padding: 15px;
+	border-top: 3px #c1c1c1 solid;
+}
+
+div#newsOverview div.article_item {
+	margin-bottom: 24px;
+}
+
+div#newsOverview div.item_details_command {
+	margin-top: 6px;
+}
+
+div#newsOverview div.article_author, div#newsOverview div.article_body {
+	display: none;
+}
+
+div#newsOverview div.article_teaser {
+	display: block;
+	width: auto;
+	font-size: 11px;
+	color: #1f1f1f;
+	line-height: 21px;
+	text-align: left;
+}
+
+div#newsOverview div.article_teaser img {
+	display: none;
+}
+
+div#clubNews {
+	border-bottom: 18px #c1c1c1 solid;
+	margin-bottom: 12px;
+}
+
+div#clubNews h1 {
+	margin: 0;
+	padding-left: 6px;
+	line-height: 24px;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	border: 0;
+}
+
+div#clubNews div.article_item {
+margin: 0;
+}
+
+div#clubNews div.article_body, div#clubNews div.article_image, div#clubNews div.article_MORE, div#clubNews div.article_author {
+	display: none;
+}
+
+div#clubNews div.article_creation_date {
+	width: 40px;
+	line-height: 20px;
+}
+
+div#clubNews div.article_source {
+	float: left;
+	width: 40px;
+	overflow: hidden;
+	display: block;
+}
+
+div#clubNews div.article_headline {
+	width: 310px;
+	line-height: 20px;
+}
+
+div.newsText div.article_author, div.newsText div.article_teaser {
+	display: none;
+}
+
+div.articleText div.article_creation_date, div.articleText div.article_author, div.articleText div.article_teaser {
+	display: none;
+}
+
+div#newsOverview div.article_headline, div.articleText div.article_headline, div.newsText div.article_headline {
+	width: auto;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+div#newsOverview div.article_headline, div.newsText div.article_headline {
+	margin-top: 3px;
+}
+
+div.articleText div.article_body, div.newsText div.article_body{
+	width: auto;
+	font-size: 11px;
+	color: #1f1f1f;
+	line-height: 21px;
+	text-align: left;
+}
+
+div.articleText div.article_body h1, div.newsText div.article_body h2 {
+	font-size: 13px;
+	margin: 16px 0 4px 0;
+}
+
+div.articleText div.article_body ul, div.newsText div.article_body ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+div.articleText div.article_body img, div.newsText div.article_body img {
+	border: 1px #c1c1c1 solid;
+	margin: 0 0 12px 18px;
+}
+
+div#newsOverview div.article_creation_date, div.newsText div.article_creation_date {
+	padding: 0;
+	font-size: 11px;
+}
+
+div#frontNews div.article_headline {
+	width: 300px;
+}
+
+div#frontNews div.article_item_2, div#frontNews div.article_item_3 {
+	background: none;
+	border: 0;
+	position: relative;
+	padding-left: 95px;
+	margin-bottom: 10px;
+	overflow: visible;
+	background: url(/content/files/public/newsimages/default1.jpg) no-repeat;
+}
+
+div#frontNews div.article_item_3 {
+	margin-bottom: 18px;
+	background-image: url(/content/files/public/newsimages/default2.jpg);
+}
+
+div#frontNews div.article_item_2 div.article_teaser, div#frontNews div.article_item_3 div.article_teaser {
+	display: block;
+	line-height: 15px;
+}
+
+div#frontNews div.article_item_2 div.article_teaser img, div#frontNews div.article_item_3 div.article_teaser img {
+	position: absolute;
+	left: -95px;
+	top: 0;
+	padding: 2px;
+	border: 1px #dddcd7 solid;
+	background: #fff;
+	width: 75px;
+	height: 60px;
+}
+
+div#frontNews div.article_item_2 div.article_creation_date, div#frontNews div.article_item_3 div.article_creation_date {
+	padding: 0;
+	display: block;
+	float: none;
+	color: #a6a6a6;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+div#frontNews div.article_item_2 div.article_headline, div#frontNews div.article_item_3 div.article_headline {
+	float: none;
+	margin: 0;
+	padding: 0;
+	line-height: 13px;
+}
+
+/* Bottom */
+div#bottom {
+	font-size: 11px;
+	line-height: 32px;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: -78px;
+	padding: 0;
+	height: 78px;
+	background: #1a1f26;
+	position: relative;
+	bottom: 0;
+}
+
+div#bottom a {
+	color: #f86a00;
+	text-decoration: none;
+}
+
+div#bottom a:hover {
+	text-decoration: underline;
+}
+
+div#bottomLeft {
+	float: left;
+}
+
+div#bottomRight {
+	float: right;
+	color: #f86a00;
+}
+
+div#bottomRight ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#bottomRight ul li {
+	float: left;
+	display: block;
+	padding-top: 11px;
+	padding-left: 7px;
+}
+
+/* Temp Obvious TeeTimes */
+.teeTimes .teeTimeTable a{
+text-decoration: underline !important;
+font-size: 14px;
+font-weight: bold;
+padding-left: 20px;
+background: url(/content/files/public/style/images/icons/pencil.png) no-repeat;
+}
+
+.teeTimes .teeTimeTable a:hover{
+color: #ff6500;
+text-decoration: underline !important;
+}
+
+div.handicapOverview div.footer div.printIcon {
+	display: block;
+}
+
+div.handicapOverview div.footer div.printIcon img{
+	display: none;
+}
+
+div#registerNewMember h1 {
+	padding-left: 15px;
+	width: auto;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+div#tourResultList h1, div#tourResultList h2, div#tourResultList div.date {
+	display: none;
+}
+
+/* Club section */
+div#clubHeader {
+	height: 65px;
+	border-bottom: 1px #dddcd7 solid;
+}
+
+div#clubHeader div.left {
+	float: left;
+}
+
+div#clubHeader div.clubGreeting {
+	padding-top: 11px;
+	padding-left: 8px;
+	overflow: hidden;
+	width: 600px;
+}
+
+div#clubHeader div.clubGreeting img {
+	width: 47px;
+	height: 47px;
+	float: left;
+	margin-right: 8px;
+}
+
+div#clubHeader div.clubGreeting h1 {
+	margin: 0;
+	font-size: 21px;
+	color: #1a1f27;
+	margin-top: 4px;
+	text-shadow: #fff 2px 2px 1px;
+	white-space: nowrap;
+}
+
+div#clubHeader div.clubGreeting h2 {
+	margin: 0;
+	font-size: 12px;
+	color: #77756e;
+}
+
+div#clubHeader div.right {
+	float: right;
+	font-size: 12px;
+	color: #191e26;
+	padding: 12px 15px;
+}
+
+div#clubHeader div.right select {
+	margin-top: 4px;
+	font-size: 11px;
+}
+
+div#clubColumns {
+	overflow: hidden;
+	border-top: 1px #fff solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+div#clubColumns div.left {
+	width: 252px;
+	float: left;
+}
+
+div#clubColumns div.right {
+	float: right;
+	width: 724px;
+}
+
+div#clubColumnSplit {
+	overflow: hidden;
+}
+
+div#clubColumnSplit div.left {
+	float: left;
+	width: 400px;
+}
+
+div#clubColumnSplit div.right {
+	float: right;
+	width: 310px;
+}
+
+div#clubColumns div.box {
+	border: 0;
+}
+
+div#clubColumns div.box h1 {
+	padding: 0 8px;
+	border: 0;
+	line-height: 24px;
+	height: 24px;
+	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+div#clubColumns div.left ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 19px;
+}
+
+div#clubColumns div.left ul li {
+	margin-bottom: 3px;
+}
+
+div#clubColumns div.left ul li a {
+	display: block;
+	line-height: 22px;
+	background-color: #e8e7e2;
+	padding: 0 18px;
+	font-size: 12px;
+	color: #191e26;
+}
+
+div#clubColumns div.left ul li.selected a, div#clubColumns div.left ul li a:hover {
+	background-color: #737370;
+	color: #fff;
+}
+
+div#fieldBox div.fieldOverview {
+	margin-bottom: 12px;
+}
+
+div#fieldBox div.fieldOverview table tr th, div#fieldBox div.fieldOverview table tr td {
+	text-align: center;
+}
+
+div#fieldBox div.fieldOverview table tr th.firstColumn, div#fieldBox div.fieldOverview table tr td.firstColumn {
+	text-align: left;
+}
+
+div.gsiDocuments {
+	padding: 15px;
+	border-top: 3px #c1c1c1 solid;
+}
+
+/* Temp Obvious TeeTimes end */
+
+/* FelixTempFix - delete me once fixed */
+
+#navigation{
+	right: 110px !important;
+}
+
+div.usefulInfo {
+	padding : 3px;
+}
+
+div.usefulInfo .article_author,
+div.usefulInfo .article_headline,
+div.usefulInfo .article_creation_date {
+	display : none;
+}
+
+#container #top a.golf_TemplateLink{
+	font-family: "Myriad Pro", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: #2a3f13 2px 2px 1px;
+	line-height: 26px;
+	background: url(/content/files/public/style/images/backgrounds/menu-divider.gif) left no-repeat;
+	padding: 0 16px;
+	position: absolute;
+	right: 23px;
+	top: 67px;
+}
+
+#container #top a.golf_TemplateLink:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* FelixTempFix Ends */
+
+#tournamentStartingtimeList div.formItem input.indentedButton{
+	border: 1px solid red;
+	height: 14px;
+	width: 47px;
+}
+
+/* Teetime for Arnar */
+.teeTimeSearch .formItem .selectionBox{
+	height: 280px !important;
+}
+/*Teetime for Arnar ends */
+
+/*Temp hide*/
+
+.ieAs{
+	display: none !important;
+}
+/*Temp hide ends*/
+
+div.fieldHeader {
+	padding: 13px 15px;
+	border-bottom: 3px #c1c1c1 solid;
+}
+
+div.fieldHeader span.fieldHeaderName {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 4px;
+}
+
+table#fieldOverviewTable {
+	border-bottom: 1px #c1c1c1 solid;
+}
+
+div.fieldInfo {
+	padding: 10px 15px;
+}
+
+div.holeInfo {
+	padding: 13px 15px;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+div.holeInfo img {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+table#holeInfo {
+	margin-top: 20px;
+	border: 3px #c1c1c1 solid;
+}
+
+table#holeInfo tr td {
+	border-left: 3px #c1c1c1 solid;
+	padding: 6px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+table#holeInfo tr td.par {
+	border-left: 0;
+}
+
+table#holeInfo tr td.teeColor1 {
+	background-color: #fff;
+}
+
+table#holeInfo tr td.teeColor2 {
+	background-color: #fbd218;
+}
+
+table#holeInfo tr td.teeColor3, table#holeInfo tr td.teeColor5 {
+	background-color: #1a63cc;
+	color: #fff;
+}
+
+table#holeInfo tr td.teeColor4, table#holeInfo tr td.teeColor6 {
+	background-color: #cb200f;
+}
+
+div.newList div.article_item {
+	margin-bottom: 12px;
+}
+
+div.newList div.article_author, div.newList div.article_source {
+	display: none;
+}
+
+div.newList div.article_creation_date {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+div.newList div.article_headline {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+div.newList div.article_body, div.newList div.article_teaser {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+div.newList div.article_MORE {
+	margin-top: 3px;
+}
+
+div.newList div.article_MORE a {
+	font-size: 12px;
+}
+
+table#tournamentParticipantsList tr td.hasLegalHandicap {
+	color: #1a63cc;
+}
+
+table#tournamentParticipantsList tr td.anotherTournament{	color: #c00;}
+
+ul.legend {
+	margin-top: 20px;
+}
+
+ul.legend li.hasLegalHandicap, ul.legend li.removed {
+	color: #1a63cc;
+}
+
+div#handicapReports h1 {
+	line-height: 24px;
+	font-size: 11px;
+	color: #fff;
+	font-weight: bold;
+	background: url(/content/files/public/style/images/backgrounds/list-heading-background.gif) repeat-x #1a1f26;
+	border: 0;
+	padding: 0 8px;
+	border-bottom: 3px #c1c1c1 solid;
+	margin-bottom: 0;
+}
+
+div#handicapReports ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	border-bottom: 20px #c1c1c1 solid;
+}
+
+div#handicapReports ul li a {
+	display: block;
+	line-height: 18px;
+	padding: 0 8px;
+	border-bottom: 1px #ececec solid;
+}
