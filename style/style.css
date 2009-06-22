@@ -155,38 +155,50 @@ ul#navigation li.selected a {
 
 div#login {
 	position: absolute;
-	right: 267px;
+	right: 32px;
 	top: 107px;
-	width: 399px;
 	height: 32px;
-	background: url(/style/images/backgrounds/login-background-small.gif) no-repeat;
+	padding-left: 4px;
+width: auto !important;
+	background: url(/style/images/backgrounds/login-background-left.gif) left no-repeat;
 }
 
-div#login a#lostPassword {
-	position: absolute;
-	line-height: 20px;
-	top: 6px;
-	left: 306px;
+div#login div.login {
+	background: url(/style/images/backgrounds/login-background-right.gif) right no-repeat;
+	float: left;
+	display: inline;
+width: auto !important;
+	max-width: none;
 }
 
-div#login form {
+div#login .login form {
 	margin: 0;
-	background: url(/style/images/icons/login.gif) 7px 8px no-repeat;
-	padding-left: 23px;
-	overflow: hidden;
+	background: url(/style/images/icons/login.gif) 3px 8px no-repeat;
+	padding-left: 19px;
 	height: 32px;
+	float: left;
+	display: inline;
 }
 
-div#login form p {
-	padding-left: 12px;
+div#login .login div.greeting {
+	float: left;
+	display: inline;
 	font-size: 12px;
 	font-weight: bold;
 	color: #fff;
 	line-height: 32px;
+	padding-left: 12px;
 }
 
-div#login div.login {
-	max-width: none;
+div#login .login form p {
+	padding-left: 6px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 32px;
+	float: left;
+	display: inline;
+	min-width: 200px;
 }
 
 div#login div.login label {
@@ -195,6 +207,7 @@ div#login div.login label {
 
 div#login div.login div.username, div#login div.login div.password {
 	float: left;
+	display: inline;
 	margin-left: 7px;
 	margin-top: 6px;
 }
@@ -213,6 +226,8 @@ div#login div.login div.username input, div#login div.login div.password input {
 	font-size: 11px;
 	padding: 2px;
 	border: 1px #ccc solid;
+	margin: 0;
+	float: left;
 }
 
 div#login div.login div.username input {
@@ -223,15 +238,28 @@ div#login div.login div.password input {
 	width: 108px;
 }
 
+div#login a.lostPassword {
+	display: inline;
+	float: left;
+	line-height: 32px;
+	margin-left: 12px;
+	margin-right: 16px;
+}
+
+div#login div.submit {
+	float: left;
+	display: inline;
+	margin-top: 6px;
+	margin-right: 8px;
+}
+
 div#login div.submit a {
 	background: url(/style/images/tabs/login/left.gif) left no-repeat;
 	line-height: 20px;
 	display: block;
+	float: left;
 	height: 20px;
 	padding-left: 4px;
-	position: absolute;
-	right: 8px;
-	top: 6px;
 	color: #fff;
 	text-shadow: #000 2px 2px 1px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
@@ -244,68 +272,82 @@ div#login div.submit a:hover {
 
 div#login div.submit a span {
 	background: url(/style/images/tabs/login/right.gif) right no-repeat;
-	display: block;
+	display: inline;
+	float: left;
 	padding-left: 6px;
 	padding-right: 10px;
 }
 
-div#registration {
-	position: absolute;
-	right: 32px;
-	top: 107px;
-	width: 224px;
+div.registerBox {
+	float: left;
+	display: inline;
+	margin-left: 12px;
 	height: 32px;
-	background: url(/style/images/backgrounds/registration-background.gif) no-repeat;
+	padding-left: 4px;
+	background: url(/style/images/backgrounds/login-background-left.gif) left no-repeat;
 }
 
-div#registration form {
-	padding-left: 30px;
-	background: url(/style/images/icons/registration.gif) 7px 8px no-repeat;
-	overflow: hidden;
+div.registerBox div.icon {
+	background: url(/style/images/icons/registration.gif) 3px 8px no-repeat;
+	width: 26px;
+	float: left;
+	height: 32px;
+	display: inline;
 }
 
-div#registration label, div#registration div.example {
+div.registerBox form {
+	height: 32px;
+	float: left;
+	display: inline;
+	background: url(/style/images/backgrounds/login-background-right.gif) right no-repeat;
+}
+
+div.registerBox label, div.registerBox div.example {
 	display: none;
 }
 
-div#registration div.input {
+div.registerBox div.input {
 	border: 1px #fff solid;
 	float: left;
+	display: inline;
 	padding: 0;
 	margin: 0;
 	margin-top: 6px;
 }
 
-div#registration input {
+div.registerBox div.input input {
 	width: 87px;
 	height: 13px;
 	font-size: 11px;
 	padding: 2px;
 	border: 1px #ccc solid;
+	float: left;
 }
 
-div#registration a {
+div.registerBox a {
 	background: url(/style/images/tabs/login/left.gif) left no-repeat;
 	line-height: 20px;
-	display: block;
 	height: 20px;
 	padding-left: 4px;
-	position: absolute;
-	right: 8px;
-	top: 6px;
+	float: left;
+	display: inline;
+	margin-top: 6px;
+	margin-right: 8px;
+	margin-left: 6px;
 	color: #fff;
 	text-shadow: #000 2px 2px 1px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }
 
-div#registration a:hover {
+div.registerBox a:hover {
 	text-decoration: none;
 }
 
-div#registration a span {
+div.registerBox a span {
 	background: url(/style/images/tabs/login/right.gif) right no-repeat;
-	display: block;
+	display: inline;
+	float: left;
 	padding-left: 6px;
 	padding-right: 10px;
 }
@@ -366,6 +408,26 @@ div#twoColumns div.right, div#threeColumns div.right {
 	float: right;
 	width: 252px;
 	padding-top: 19px;
+}
+
+div#handicapPage {
+	width: 997px;
+	padding-left: 7px;
+	overflow: hidden;
+}
+
+div#handicapPage div.left {
+	float: left;
+	width: 724px;
+}
+
+div#handicapPage div.right {
+	background: transparent url(/style/images/backgrounds/middle-column-background-small.gif) no-repeat 0 0;
+	float: left;
+	min-height: 900px;
+	padding: 19px 14px 0;
+	width: 245px;
+	float: right;
 }
 
 /* Box */
@@ -600,9 +662,9 @@ div#poll div.poll .percentageLevel{
 	background: #3a84cf;
 }
 
-
 div#playgolf {
-	min-height: 258px;
+	width: 310px;
+	overflow: hidden;
 	background: url(/style/images/backgrounds/playgolf-background.gif) repeat-x #a6c099;
 	border-color: #bbcda0;
 }
@@ -613,6 +675,18 @@ div#playgolf h1 {
 
 div#playgolf div.innerBox {
 	padding: 10px 12px;
+}
+
+div#playgolf h2 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #191e26;
+	font-weight: normal;
+	margin-bottom: 8px;
+	background-color: transparent;
+	padding: 0;
+	line-height: 1em;
 }
 
 div#playgolf img#bookOnline {
@@ -764,9 +838,7 @@ div.weather {
 	background: url(/style/images/backgrounds/weather-background.png) no-repeat;
 	width: 236px;
 	height: 59px;
-	position: absolute;
-	left: 7px;
-	margin-top: 8px;
+	position: relative;
 	padding: 8px 10px;
 	font-family: Arial, Helvetica, sans-serif;
 	color: #191e26;
@@ -1142,10 +1214,8 @@ div#frontNews div.article_item_2, div#frontNews div.article_item_3 {
 	background: none;
 	border: 0;
 	position: relative;
-	padding-left: 95px;
 	margin-bottom: 10px;
 	overflow: visible;
-	background: url(/newsimages/default1.jpg) no-repeat;
 }
 
 div#frontNews div.article_item_3 {
@@ -1407,10 +1477,6 @@ div.gsiDocuments {
 
 /* FelixTempFix - delete me once fixed */
 
-#navigation{
-	right: 110px !important;
-}
-
 div.usefulInfo {
 	padding : 3px;
 }
@@ -1562,7 +1628,9 @@ table#tournamentParticipantsList tr td.hasLegalHandicap {
 	color: #1a63cc;
 }
 
-table#tournamentParticipantsList tr td.anotherTournament{	color: #c00;}
+table#tournamentParticipantsList tr td.anotherTournament{
+	color: #c00;
+}
 
 ul.legend {
 	margin-top: 20px;
@@ -1572,7 +1640,7 @@ ul.legend li.hasLegalHandicap, ul.legend li.removed {
 	color: #1a63cc;
 }
 
-div#handicapReports h1 {
+div#handicapReports h1, div#handicapMember h1 {
 	line-height: 24px;
 	font-size: 11px;
 	color: #fff;
@@ -1582,6 +1650,15 @@ div#handicapReports h1 {
 	padding: 0 8px;
 	border-bottom: 3px #c1c1c1 solid;
 	margin-bottom: 0;
+}
+
+div#handicapMember div.padder {
+	background-color: #fff;
+	padding: 15px;
+}
+
+div#placeholder {
+	height: 390px;
 }
 
 div#handicapReports ul {
