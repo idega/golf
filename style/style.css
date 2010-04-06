@@ -1674,3 +1674,146 @@ div#handicapReports ul li a {
 	padding: 0 8px;
 	border-bottom: 1px #ececec solid;
 }
+
+div.articleText div.teams {
+	width: 700px;
+	overflow: hidden;
+}
+
+div.articleText div.team {
+	float:left;
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+div.articleText div.team h2 {
+	font-size: 12px;
+	margin: 0;
+}
+
+div.articleText div.team p {
+	margin: 0;
+}
+
+div.articleText h1 {
+	clear:both;
+}
+
+table.teamTimes {
+	margin-bottom: 20px;
+}
+
+table.teamTimes td {
+	border-top: 1px #a8a8a8 solid;
+}
+
+table.resultTable {
+	font-size: 14px;
+	text-align: center;
+}
+
+table.resultTable td {
+	vertical-align: bottom;
+	border-bottom: 1px #a8a8a8 solid;
+	border-left: 1px #a8a8a8 solid;
+}
+
+table.resultTable td.lastColumn {
+	border-right: 1px #a8a8a8 solid;
+}
+
+table.resultTable td.emptyCell {
+	border: 0;
+}
+
+table.resultTable tr.emptyRow td {
+	height: 6px;
+	background-color: #666;
+}
+
+table.resultTable tr.headers td, table.resultTable tr.titles td {
+	font-weight: bold;
+}
+
+table.resultTable th {
+	border: 1px #a8a8a8 solid;
+	background: #ccc;
+}
+
+table.resultTable tr.clubs td {
+	color: #006;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+table.resultTable tr.clubs td.large {
+	font-size: 24px;
+	line-height: 24px;
+	padding: 4px 0;
+}
+
+table.teamResults th {
+	line-height: 1em;
+	padding: 5px 8px;
+	font-size: 14px;
+}
+
+table.teamResults td {
+	border-bottom: 1px #a8a8a8 solid;
+	line-height: 1em;
+	padding: 5px 8px;
+	font-size: 14px;
+	text-align: center;
+}
+
+table.teamResults td.club {
+	text-align: left;
+}
+
+table.teamResults td.result {
+	border-left: 1px #a8a8a8 solid;
+}
+
+table.teamResults td.result.last {
+	border-right: 1px #a8a8a8 solid;
+}
+
+table.teamResults tr.first td.result {
+	border-top: 1px #a8a8a8 solid;
+}
+
+table.teamResults td.forbidden {
+	background-color: #a8a8a8;
+}
+
+table.teamResults td.emptyRow {
+	border: 0;
+	width: 20px;
+}
+
+div.tournaments {
+	position: relative;
+}
+
+a.teamsBackLink {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	line-height: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: #000 2px 2px 1px;
+	border-left: 1px #252526 solid;
+}
+
+a.teamsBackLink span {
+	display: block;
+	padding: 0 10px;
+	border-left: 1px #858C97 solid;
+}
+
+a.teamsBackLink span span {
+	padding: 0;
+	border: 0;
+}
