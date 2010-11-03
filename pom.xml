@@ -287,21 +287,22 @@
 				</executions>
 			</plugin>
 
-
 			<plugin>
 				<groupId>com.idega.maven.plugins</groupId>
 				<artifactId>com.idega.maven.webapp</artifactId>
 				<extensions>true</extensions>
 				<configuration>
-					<!-- <webResources> <resource> <directory>resources</directory> <targetPath>resources</targetPath> 
-						</resource> </webResources> -->
+					<webResources>
+						<resource>
+							<directory>resources</directory>
+							<targetPath>resources</targetPath>
+						</resource>
+					</webResources>
 					<archive>
 						<manifest>
-							<!--addClasspath>true</addClasspath -->
 							<addExtensions />
 						</manifest>
 						<manifestEntries>
-							<!--Implementation-Vendor>${pom.organization.name}</Implementation-Vendor -->
 							<Implementation-Vendor-Url>${pom.organization.url}</Implementation-Vendor-Url>
 							<Implementation-Build>${buildNumber}</Implementation-Build>
 							<Implementation-InceptionYear>${pom.inceptionYear}</Implementation-InceptionYear>
