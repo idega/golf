@@ -6,7 +6,7 @@
   <name>golf</name>
   <groupId>iw-applications</groupId>
   <artifactId>golf</artifactId>
-  <currentVersion>3.1.41</currentVersion>
+  <currentVersion>3.1.42</currentVersion>
   <inceptionYear>2002</inceptionYear>
   <shortDescription>IdegaWeb Golf webapplication</shortDescription>
   <versions>
@@ -220,6 +220,11 @@
       <name>3.1.41</name>
       <tag>EGOLF_3_1_41</tag>
     </version>
+    <version>
+      <id>3.1.42</id>
+      <name>3.1.42</name>
+      <tag>EGOLF_3_1_42</tag>
+    </version>
   </versions>
   <dependencies>
     <!-- IdegaWeb Golf specific modules -->
@@ -373,21 +378,6 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-<!--
-    <dependency>
-      <groupId>bundles</groupId>
-      <artifactId>com.idega.cluster</artifactId>
-      <version>3.1.0</version>
-      <type>iwbar</type>
-      <url>http://www.idega.com</url>
-    </dependency>
-    <dependency>
-      <groupId>bundles</groupId>
-      <artifactId>net.jxta</artifactId>
-      <version>1.0</version>
-      <type>iwbar</type>
-      <url>http://www.idega.com</url>
-    </dependency> -->
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.creditcard</artifactId>
@@ -401,6 +391,34 @@
       <version>3.1.22</version>
       <type>iwbar</type>
       <url>http://www.idega.com/</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.pdf</artifactId>
+      <version>3.1.1</version>
+      <type>jar</type>
+      <url>http://www.idega.com/</url>
+    </dependency>
+    <dependency>
+      <groupId>itextpdf</groupId>
+      <artifactId>itext-paulo</artifactId>
+      <version>139</version>
+      <type>jar</type>
+      <url>http://itextpdf.sourceforge.net/</url>
+    </dependency>
+    <dependency>
+      <groupId>itext</groupId>
+      <artifactId>itext-xml</artifactId>
+      <version>1.02</version>
+      <type>jar</type>
+      <url>http://itext.sourceforge.net/</url>
+    </dependency>
+    <dependency>
+      <groupId>ujac</groupId>
+      <artifactId>ujac</artifactId>
+      <version>0.9.25</version>
+      <type>jar</type>
+      <url>http://ujac.sourceforge.net/</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
