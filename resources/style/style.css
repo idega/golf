@@ -1856,3 +1856,32 @@ a.teamsBackLink span span {
 	padding: 0;
 	border: 0;
 }
+
+table#tournamentCSA {
+	border-top:3px solid #C1C1C1;
+	border-bottom:3px solid #C1C1C1;
+}
+
+form#tournamentStatistic table .hole {
+	text-align: center;
+}
+
+form#tournamentStatistic div.padder {
+	background-color:#FFFFFF;
+	padding:15px;
+	border-top:3px solid #C1C1C1;
+}
+
+form#tournamentStatistic div#placeHolder {
+	background-color:#FFFFFF;
+	padding:15px;
+}
+
+input.hasDatepicker {
+	width: 64px;
+	margin-right: 2px !important;
+}
+
+img.ui-datepicker-trigger {
+	vertical-align: top;
+}
