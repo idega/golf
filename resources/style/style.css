@@ -197,6 +197,7 @@ div#login .login form p {
 	float: left;
 	display: inline;
 	min-width: 200px;
+	margin: 0;
 }
 
 div#login div.login label {
