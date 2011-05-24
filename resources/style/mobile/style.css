@@ -1,0 +1,256 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 75%;
+	line-height: 1em;
+background-color: #efefef;
+}
+
+div#top {
+	background: url("/static/style/images/backgrounds/top-tiler.gif") left repeat-x;
+	height: 30px;
+}
+
+div#top img {
+	padding: 3px 6px;
+}
+
+div#top div.links {
+	float: right;
+}
+
+div#top div.links a, div#top div.links form {
+	float: right;
+}
+
+div#top div.links a {
+	color: #fff;
+	text-decoration: none;
+	margin: 3px 8px;
+	line-height: 22px;
+	font-size: 1.0833em;
+}
+
+div#content {
+	background-color: #fff;
+	box-shadow: #999 0 3px 3px;
+		-moz-box-shadow: #999 0 3px 3px;
+		-webkit-box-shadow: #999 0 3px 3px;
+}
+
+
+
+/* Navigation list */
+ul.navigationList li a {
+	display: block;
+	border-bottom: 1px #ccc solid;
+	text-decoration: none;
+	color: #333;
+	line-height: 36px;
+	padding: 0 8px;
+	font-size: 1.33em;
+	background-color: #fff;
+}
+
+/* Login */
+div#content div.login {
+	padding: 16px 10px;
+}
+
+div#content div.login label {
+	display: block;
+	float: none;
+	margin: 0;
+	width: auto;
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+
+div#content div.login input {
+	width: 95%;
+	border: 1px #ccc solid;
+	padding: 4px 6px;
+	font-size: 1.25em;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+
+	border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+}
+
+div#content div.login div.username, div#content div.login div.password {
+	margin-bottom: 12px;
+}
+
+div#content div.login div.submit {
+	width: auto;
+	overflow: hidden;
+}
+
+div#content div.login div.submit a {
+	float: right;
+	border: 1px #666 solid;
+	text-decoration: none;
+	padding: 6px 8px;
+	color: #666;
+	background-color: #efefef;
+
+	border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+}
+
+/* Navigation */
+div.navigationLayer {
+	padding: 12px 8px 0 8px;;
+}
+
+div.navigationLayer div.formItem {
+	float: none;
+	margin-right: 0;
+}
+
+div.navigationLayer div.formItem label {
+	float: left;
+	width: 60px;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+div.navigationLayer div.formItem.datePicker input, div.navigationLayer div.formItem input.hasDatepicker {
+	width: 70px;
+}
+
+div.navigationLayer div.formItem a {
+	margin-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	float: right;
+}
+
+/* Handicap info */
+div#handicapMemberInfo img {
+	margin-bottom: 0;
+}
+
+div#handicapMemberInfo h1 {
+	line-height: 1em;
+}
+
+div.golfMemberInfo div.overviewSection div.overviewItem {
+	padding: 6px 8px;
+}
+
+div.golfMemberInfo div.overviewSection div.overviewItem label {
+	font-size: 0.667em;
+	line-height: 1em;
+	margin-bottom: 3px;
+	width: auto;
+	border: 0;
+	padding: 0;
+	float: none;
+}
+
+div.golfMemberInfo div.overviewSection div.overviewItem span {
+	font-size: 1em;
+	line-height: 1em;
+	display: block;
+	padding: 0;
+	float: none;
+}
+
+div.padder {
+	width: auto;
+	padding: 10px;
+	background-color: #fff;
+	border-bottom: 1px #c1c1c1 solid;
+}
+
+div#placeholder {
+	height: 200px;
+}
+
+div#handicapMember h1 {
+	background: url("/static/style/images/backgrounds/list-heading-background.gif") top left repeat-x #1A1F26;
+	border-bottom: 3px #c1c1c1 solid;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 0;
+	padding: 0 8px;
+}
+
+/* Handicap score */
+form#handicapScore div.formSection {
+	padding: 12px 8px 0 8px;
+}
+
+form#handicapScore div.formSection div.formItem {
+	margin-bottom: 12px;
+}
+
+form#handicapScore div.formSection div.formItem input, form#handicapScore div.formSection div.formItem select {
+	font-size: 1em;
+}
+
+form#handicapScore div.formSection div.formItem input {
+	width: 70px;
+}
+
+form#handicapScore div.formSection div.formItem span {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+form#handicapScore div.formSection div.formItem label {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 80px;
+	font-weight: bold;
+}
+
+form#handicapScore div.golfer,
+form#handicapScore div.statistics,
+form#handicapScore div.infoLayer,
+form#handicapScore a.back {
+	display: none;
+}
+
+/* Handicap register */
+table.scorecardTable div.helpLayer {
+	display: none;
+}
+
+/* Handicap overview */
+form#handicapOverview .tournament,
+form#handicapOverview .tees,
+form#handicapOverview .slope,
+form#handicapOverview .courseHandicap,
+form#handicapOverview .totalStrokes,
+form#handicapOverview .csa,
+form#handicapOverview .difference,
+form#handicapOverview .handicap,
+form#handicapOverview .scorecard {
+	display: none;
+}
+
+/* Tournament list */
+table.tournamentListTable .arrangement,
+table.tournamentListTable .rounds,
+table.tournamentListTable .type,
+table.tournamentListTable .register {
+	display: none;
+}
+
+div.buttonLayer {
+	background-color: #CCCAC3;
+}
+
+/* Footer */
+div#footer {
+	text-align: center;
+	font-size: 0.9167em;
+	padding: 12px 0;
+	clear: both;
+}
