@@ -222,6 +222,26 @@ table.scorecardTable div.helpLayer {
 	display: none;
 }
 
+table.scorecardTable .hole {
+	text-align: center !important;
+}
+
+table.scorecardTable input {
+	text-align: center !important;
+}
+
+div.information {
+	padding: 12px 8px;
+}
+
+div.information div.infoItem label {
+	width: 65px;
+}
+
+div.information div.infoItem span {
+	width: auto;
+}
+
 /* Handicap overview */
 form#handicapOverview .tournament,
 form#handicapOverview .tees,
@@ -245,6 +265,76 @@ table.tournamentListTable .register {
 
 div.buttonLayer {
 	background-color: #CCCAC3;
+}
+
+/* Leaderboard */
+div#leaderboard {
+	border-bottom: 3px #c1c1c1 solid;
+}
+
+div#leaderboard div.formItem {
+	float: none;
+	margin-bottom: 12px;
+}
+
+div#leaderboard div.formItem label {
+	display: block;
+}
+
+div#leaderboard div.formSection {
+	background: url("/idegaweb/bundles/is.idega.idegaweb.golf.bundle/resources/style/images/backgrounds/navigation-background.gif") top left repeat-x #CCCAC3;
+	border-bottom: 3px solid #C1C1C1;
+	padding: 12px 8px 0 8px;
+}
+
+div#leaderboard div.formSection div.formItem label {
+	float: left;
+	font-weight: bold;
+	line-height: 18px;
+	width: 60px;
+}
+
+div#leaderboard div.formSection div.formItem span {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+div#leaderboard div.formSection div.formItem select {
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	max-width: 210px;
+}
+
+div#leaderboard table {
+	border-collapse: separate;
+}
+
+div#leaderboard table th {
+	height: 18px;
+	vertical-align: middle;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #191e26;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: 1px #ececec solid;
+	padding: 0 6px;
+	text-align: left;
+	background-color: #fff;
+}
+
+div#leaderboard table td {
+	height: 18px;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #191e26;
+	font-size: 11px;
+	font-weight: normal;
+	border: 0;
+	border-top: 1px #ececec solid;
+	border-left: 1px #ececec solid;
+	padding: 2px 6px;
 }
 
 /* Footer */
