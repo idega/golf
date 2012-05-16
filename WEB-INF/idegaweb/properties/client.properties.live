@@ -1,5 +1,5 @@
 ; Client.properties file created Fri Apr 23 00:26:17 GMT 2004
-ClientCAResolver.IPSet1.Host=82.221.24.89
+ClientCAResolver.IPSet1.Host=sps.median.is
 ClientCAResolver.IPSet1.Port=20701
 ClientCAResolver.IPSet1.Type=1
 ClientCAResolver.IPSet2.Host=0.0.0.0
@@ -9,10 +9,10 @@ ClientCAResolver.IPSet3.Host=0.0.0.0
 ClientCAResolver.IPSet3.Port=10421
 ClientCAResolver.IPSet3.Type=1
 
-ClientKeyResolver.IPSet1.Host=82.221.24.89
+ClientKeyResolver.IPSet1.Host=sps.median.is
 ClientKeyResolver.IPSet1.Port=20702
 ClientKeyResolver.IPSet1.Type=2
-ClientKeyResolver.IPSet1.KeyPath=/home/idegaweb/tomcat/www4.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/keys
+ClientKeyResolver.IPSet1.KeyPath=/home/idegaweb/tomcat/www.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/keys
 ClientKeyResolver.IPSet1.CACert=CA_cer.pem
 ClientKeyResolver.IPSet2.Host=0.0.0.0
 ClientKeyResolver.IPSet2.Port=10422
@@ -25,10 +25,10 @@ ClientKeyResolver.IPSet3.Type=2
 ClientKeyResolver.IPSet3.KeyPath=/home/idegaweb/tomcat/travel/bin/Keys
 ClientKeyResolver.IPSet3.CACert=CA_cer.pem
 
-ClientBLResolver.IPSet1.Host=82.221.24.89
-ClientBLResolver.IPSet1.Port=20703
-ClientBLResolver.IPSet1.Type=3
-ClientBLResolver.IPSet1.KeyPath=/home/idegaweb/tomcat/www4.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/keys
+ClientBLResolver.IPSet1.Host=sps.median.is
+ClientBLResolver.IPSet1.Port=20704
+ClientBLResolver.IPSet1.Type=2
+ClientBLResolver.IPSet1.KeyPath=/home/idegaweb/tomcat/www.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/keys
 ClientBLResolver.IPSet1.CACert=CA_cer.pem
 ClientBLResolver.IPSet1.OwnCert=CL_cer.pem
 ClientBLResolver.IPSet1.OwnKey=CL_prv.pem
@@ -54,8 +54,8 @@ MerchantID=TST
 LocationID=BJORG
 POSID=BJO003001
 
-Log.FileName=/home/idegaweb/tomcat/www4.golf.is/webapps/ROOT/creditcardlogs/log.txt
-
-TPOS3VoidQueue=/home/idegaweb/tomcat/www4.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/Q
+Log.FileName=/home/idegaweb/tomcat/www.golf.is/creditcardLogs/log.txt
+TPOS3Log=/home/idegaweb/tomcat/www.golf.is/creditcardLogs/TPOS3Log.txt
+TPOS3VoidQueue=/home/idegaweb/tomcat/www.golf.is/webapps/ROOT/idegaweb/bundles/com.idega.block.creditcard.bundle/Q
 
 ServerEnvironment=False
