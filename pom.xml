@@ -203,7 +203,6 @@
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>com.idega.block.weather</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>is.idega.block.modernus</artifactId>
@@ -211,6 +210,10 @@
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>is.idega.block.weather</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.block.facebook.client</artifactId>
 		</dependency>
 		
 		
@@ -306,6 +309,7 @@
 				<artifactId>com.idega.maven.webapp</artifactId>
 				<extensions>true</extensions>
 				<configuration>
+					<extractResources>true</extractResources>
 					<webResources>
 						<resource>
 							<directory>resources</directory>
