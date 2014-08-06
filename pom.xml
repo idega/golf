@@ -217,12 +217,6 @@
 			<artifactId>is.idega.idegaweb.member</artifactId>
 		</dependency>
 		
-		<!-- Private -->
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>is.idega.idegaweb.member.isi</artifactId>
-		</dependency>
-		
 		<!-- Solution -->
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
