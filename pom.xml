@@ -230,6 +230,11 @@
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.golf.block.login</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>com.idega.golf.api</artifactId>
+			<version>5.0.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<distributionManagement>
