@@ -237,7 +237,6 @@
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>com.idega.golf.api</artifactId>
-			<version>5.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
